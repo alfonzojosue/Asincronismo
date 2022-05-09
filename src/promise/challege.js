@@ -5,7 +5,7 @@ fetchData(API)
 
     .then(data => {
         console.log(data.info.count);
-        return fetchData(`${API}${data.result[0].id}`);
+        return fetchData(`${API}${data.results[1].id}`);
 
     })
     .then(data => {
