@@ -1,0 +1,20 @@
+{
+  "name": "asincroismo",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge" : "node src/callback/challange.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Josue Alfonzo",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
